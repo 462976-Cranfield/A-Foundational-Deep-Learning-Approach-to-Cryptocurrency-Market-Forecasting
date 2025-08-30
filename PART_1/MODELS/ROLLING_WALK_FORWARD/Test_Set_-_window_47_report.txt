@@ -1,0 +1,10 @@
+Test Set - window_47
+              precision    recall  f1-score   support
+
+         Buy     0.4528    0.1446    0.2192       166
+        Hold     0.5654    0.9116    0.6979       294
+        Sell     0.1500    0.0345    0.0561        87
+
+    accuracy                         0.5393       547
+   macro avg     0.3894    0.3635    0.3244       547
+weighted avg     0.4652    0.5393    0.4505       547

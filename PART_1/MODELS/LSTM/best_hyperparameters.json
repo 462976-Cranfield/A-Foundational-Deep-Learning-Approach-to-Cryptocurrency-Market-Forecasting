@@ -1,0 +1,8 @@
+{
+    "units_1": 64,
+    "dropout_1": 0.5,
+    "units_2": 48,
+    "dropout_2": 0.4,
+    "dense_units": 32,
+    "learning_rate": 0.0007091182246779932
+}

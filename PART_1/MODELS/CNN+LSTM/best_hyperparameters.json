@@ -1,0 +1,11 @@
+{
+    "conv_filters": 96,
+    "conv_dropout": 0.30000000000000004,
+    "conv_filters_2": 64,
+    "conv_dropout_2": 0.1,
+    "lstm_units": 32,
+    "lstm_dropout": 0.2,
+    "dense_units": 80,
+    "dense_dropout": 0.5,
+    "learning_rate": 0.0001
+}

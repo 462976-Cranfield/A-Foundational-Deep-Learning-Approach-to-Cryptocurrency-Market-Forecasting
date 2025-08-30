@@ -1,0 +1,139 @@
+📊 Moyenne du F1-score sur toutes les fenêtres : 0.4411
+
+best 31 window
+
+📊 Validation Set - window_31
+✔️ Rapport de classification sauvegardé dans : results/Validation_Set_-_window_31_report.txt
+
+📊 Test Set - window_31
+✔️ Rapport de classification sauvegardé dans : results/Test_Set_-_window_31_report.txt
+✔️ Matrice de confusion sauvegardée dans : results/confusion_matrix_window_31.png
+
+Fenêtre 32: Entraînement [5642:12212], Validation [12212:13307], Test [13307:13854]
+Poids des classes pour cette fenêtre : {0: np.float64(1.0688140556368961), 1: np.float64(0.6366279069767442), 2: np.float64(2.0259019426456986)}
+Epoch 1/200
+406/411 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step - accuracy: 0.3049 - loss: 1.2691Learning rate at epoch 1: 0.001000
+411/411 ━━━━━━━━━━━━━━━━━━━━ 8s 12ms/step - accuracy: 0.3051 - loss: 1.2680 - val_accuracy: 0.2530 - val_loss: 1.1361 - learning_rate: 0.0010
+Epoch 2/200
+409/411 ━━━━━━━━━━━━━━━━━━━━ 0s 11ms/step - accuracy: 0.3542 - loss: 1.1308Learning rate at epoch 2: 0.001000
+411/411 ━━━━━━━━━━━━━━━━━━━━ 5s 12ms/step - accuracy: 0.3542 - loss: 1.1307 - val_accuracy: 0.4064 - val_loss: 1.0808 - learning_rate: 0.0010
+Epoch 3/200
+408/411 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step - accuracy: 0.3713 - loss: 1.1147Learning rate at epoch 3: 0.001000
+411/411 ━━━━━━━━━━━━━━━━━━━━ 4s 11ms/step - accuracy: 0.3713 - loss: 1.1146 - val_accuracy: 0.4530 - val_loss: 1.0621 - learning_rate: 0.0010
+Epoch 4/200
+407/411 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step - accuracy: 0.3964 - loss: 1.1038Learning rate at epoch 4: 0.001000
+411/411 ━━━━━━━━━━━━━━━━━━━━ 5s 10ms/step - accuracy: 0.3963 - loss: 1.1036 - val_accuracy: 0.4201 - val_loss: 1.1111 - learning_rate: 0.0010
+Epoch 5/200
+406/411 ━━━━━━━━━━━━━━━━━━━━ 0s 12ms/step - accuracy: 0.4028 - loss: 1.1080Learning rate at epoch 5: 0.001000
+411/411 ━━━━━━━━━━━━━━━━━━━━ 6s 12ms/step - accuracy: 0.4027 - loss: 1.1079 - val_accuracy: 0.3808 - val_loss: 1.1048 - learning_rate: 0.0010
+Epoch 6/200
+409/411 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step - accuracy: 0.4254 - loss: 1.0986Learning rate at epoch 6: 0.001000
+411/411 ━━━━━━━━━━━━━━━━━━━━ 4s 10ms/step - accuracy: 0.4254 - loss: 1.0985 - val_accuracy: 0.4228 - val_loss: 1.1309 - learning_rate: 0.0010
+Epoch 7/200
+410/411 ━━━━━━━━━━━━━━━━━━━━ 0s 11ms/step - accuracy: 0.4154 - loss: 1.0981Learning rate at epoch 7: 0.001000
+411/411 ━━━━━━━━━━━━━━━━━━━━ 6s 12ms/step - accuracy: 0.4154 - loss: 1.0981 - val_accuracy: 0.4466 - val_loss: 1.1114 - learning_rate: 0.0010
+Epoch 8/200
+409/411 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step - accuracy: 0.4134 - loss: 1.0957Learning rate at epoch 8: 0.001000
+411/411 ━━━━━━━━━━━━━━━━━━━━ 5s 11ms/step - accuracy: 0.4134 - loss: 1.0957 - val_accuracy: 0.4676 - val_loss: 1.0717 - learning_rate: 0.0010
+Epoch 9/200
+411/411 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step - accuracy: 0.4302 - loss: 1.0900Learning rate at epoch 9: 0.001000
+411/411 ━━━━━━━━━━━━━━━━━━━━ 5s 10ms/step - accuracy: 0.4302 - loss: 1.0899 - val_accuracy: 0.4192 - val_loss: 1.0977 - learning_rate: 0.0010
+Epoch 10/200
+409/411 ━━━━━━━━━━━━━━━━━━━━ 0s 12ms/step - accuracy: 0.4157 - loss: 1.0953Learning rate at epoch 10: 0.001000
+411/411 ━━━━━━━━━━━━━━━━━━━━ 6s 13ms/step - accuracy: 0.4157 - loss: 1.0952 - val_accuracy: 0.4849 - val_loss: 1.0726 - learning_rate: 0.0010
+Epoch 11/200
+411/411 ━━━━━━━━━━━━━━━━━━━━ 0s 11ms/step - accuracy: 0.4094 - loss: 1.0889Learning rate at epoch 11: 0.001000
+411/411 ━━━━━━━━━━━━━━━━━━━━ 10s 12ms/step - accuracy: 0.4095 - loss: 1.0889 - val_accuracy: 0.4064 - val_loss: 1.1027 - learning_rate: 0.0010
+Epoch 12/200
+411/411 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step - accuracy: 0.4227 - loss: 1.0931Learning rate at epoch 12: 0.001000
+411/411 ━━━━━━━━━━━━━━━━━━━━ 4s 11ms/step - accuracy: 0.4227 - loss: 1.0931 - val_accuracy: 0.5023 - val_loss: 1.0519 - learning_rate: 0.0010
+Epoch 13/200
+408/411 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step - accuracy: 0.4271 - loss: 1.0890Learning rate at epoch 13: 0.001000
+411/411 ━━━━━━━━━━━━━━━━━━━━ 4s 10ms/step - accuracy: 0.4271 - loss: 1.0889 - val_accuracy: 0.5023 - val_loss: 1.0549 - learning_rate: 0.0010
+Epoch 14/200
+408/411 ━━━━━━━━━━━━━━━━━━━━ 0s 12ms/step - accuracy: 0.4101 - loss: 1.0902Learning rate at epoch 14: 0.001000
+411/411 ━━━━━━━━━━━━━━━━━━━━ 5s 13ms/step - accuracy: 0.4102 - loss: 1.0900 - val_accuracy: 0.4886 - val_loss: 1.0716 - learning_rate: 0.0010
+Epoch 15/200
+409/411 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step - accuracy: 0.4317 - loss: 1.0855Learning rate at epoch 15: 0.001000
+411/411 ━━━━━━━━━━━━━━━━━━━━ 10s 11ms/step - accuracy: 0.4317 - loss: 1.0855 - val_accuracy: 0.5041 - val_loss: 1.0790 - learning_rate: 0.0010
+Epoch 16/200
+410/411 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step - accuracy: 0.4299 - loss: 1.0846Learning rate at epoch 16: 0.001000
+411/411 ━━━━━━━━━━━━━━━━━━━━ 5s 11ms/step - accuracy: 0.4299 - loss: 1.0845 - val_accuracy: 0.3680 - val_loss: 1.1300 - learning_rate: 0.0010
+Epoch 17/200
+411/411 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step - accuracy: 0.4265 - loss: 1.0829Learning rate at epoch 17: 0.001000
+411/411 ━━━━━━━━━━━━━━━━━━━━ 4s 11ms/step - accuracy: 0.4265 - loss: 1.0829 - val_accuracy: 0.5224 - val_loss: 1.0598 - learning_rate: 0.0010
+Epoch 18/200
+411/411 ━━━━━━━━━━━━━━━━━━━━ 0s 12ms/step - accuracy: 0.4287 - loss: 1.0855Learning rate at epoch 18: 0.001000
+411/411 ━━━━━━━━━━━━━━━━━━━━ 5s 13ms/step - accuracy: 0.4287 - loss: 1.0855 - val_accuracy: 0.3872 - val_loss: 1.1397 - learning_rate: 0.0010
+Epoch 19/200
+407/411 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step - accuracy: 0.4259 - loss: 1.0817Learning rate at epoch 19: 0.001000
+411/411 ━━━━━━━━━━━━━━━━━━━━ 4s 11ms/step - accuracy: 0.4259 - loss: 1.0816 - val_accuracy: 0.3653 - val_loss: 1.1544 - learning_rate: 0.0010
+Epoch 20/200
+411/411 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step - accuracy: 0.4287 - loss: 1.0746Learning rate at epoch 20: 0.001000
+411/411 ━━━━━━━━━━━━━━━━━━━━ 4s 11ms/step - accuracy: 0.4287 - loss: 1.0746 - val_accuracy: 0.5306 - val_loss: 1.0504 - learning_rate: 0.0010
+Epoch 21/200
+409/411 ━━━━━━━━━━━━━━━━━━━━ 0s 12ms/step - accuracy: 0.4267 - loss: 1.0767Learning rate at epoch 21: 0.001000
+411/411 ━━━━━━━━━━━━━━━━━━━━ 6s 13ms/step - accuracy: 0.4266 - loss: 1.0766 - val_accuracy: 0.4037 - val_loss: 1.0980 - learning_rate: 0.0010
+Epoch 22/200
+407/411 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step - accuracy: 0.4120 - loss: 1.0783Learning rate at epoch 22: 0.001000
+411/411 ━━━━━━━━━━━━━━━━━━━━ 4s 11ms/step - accuracy: 0.4120 - loss: 1.0781 - val_accuracy: 0.3763 - val_loss: 1.1515 - learning_rate: 0.0010
+Epoch 23/200
+411/411 ━━━━━━━━━━━━━━━━━━━━ 0s 12ms/step - accuracy: 0.4273 - loss: 1.0745Learning rate at epoch 23: 0.001000
+411/411 ━━━━━━━━━━━━━━━━━━━━ 6s 13ms/step - accuracy: 0.4272 - loss: 1.0745 - val_accuracy: 0.4566 - val_loss: 1.0677 - learning_rate: 0.0010
+Epoch 24/200
+411/411 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step - accuracy: 0.4162 - loss: 1.0790Learning rate at epoch 24: 0.001000
+411/411 ━━━━━━━━━━━━━━━━━━━━ 9s 11ms/step - accuracy: 0.4162 - loss: 1.0790 - val_accuracy: 0.3845 - val_loss: 1.0940 - learning_rate: 0.0010
+Epoch 25/200
+409/411 ━━━━━━━━━━━━━━━━━━━━ 0s 12ms/step - accuracy: 0.4329 - loss: 1.0681Learning rate at epoch 25: 0.001000
+411/411 ━━━━━━━━━━━━━━━━━━━━ 6s 12ms/step - accuracy: 0.4328 - loss: 1.0680 - val_accuracy: 0.4457 - val_loss: 1.0726 - learning_rate: 0.0010
+Epoch 26/200
+408/411 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step - accuracy: 0.4107 - loss: 1.0679Learning rate at epoch 26: 0.001000
+411/411 ━━━━━━━━━━━━━━━━━━━━ 4s 11ms/step - accuracy: 0.4107 - loss: 1.0678 - val_accuracy: 0.4521 - val_loss: 1.0783 - learning_rate: 0.0010
+Epoch 27/200
+408/411 ━━━━━━━━━━━━━━━━━━━━ 0s 11ms/step - accuracy: 0.4269 - loss: 1.0679Learning rate at epoch 27: 0.001000
+411/411 ━━━━━━━━━━━━━━━━━━━━ 5s 13ms/step - accuracy: 0.4268 - loss: 1.0678 - val_accuracy: 0.3991 - val_loss: 1.0930 - learning_rate: 0.0010
+Epoch 28/200
+407/411 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step - accuracy: 0.4204 - loss: 1.0629Learning rate at epoch 28: 0.001000
+411/411 ━━━━━━━━━━━━━━━━━━━━ 9s 11ms/step - accuracy: 0.4204 - loss: 1.0628 - val_accuracy: 0.3918 - val_loss: 1.0823 - learning_rate: 0.0010
+Epoch 29/200
+411/411 ━━━━━━━━━━━━━━━━━━━━ 0s 12ms/step - accuracy: 0.4248 - loss: 1.0564Learning rate at epoch 29: 0.001000
+411/411 ━━━━━━━━━━━━━━━━━━━━ 6s 13ms/step - accuracy: 0.4248 - loss: 1.0564 - val_accuracy: 0.3881 - val_loss: 1.1248 - learning_rate: 0.0010
+Epoch 30/200
+411/411 ━━━━━━━━━━━━━━━━━━━━ 0s 12ms/step - accuracy: 0.4088 - loss: 1.0575
+Epoch 30: ReduceLROnPlateau reducing learning rate to 0.0005000000237487257.
+Learning rate at epoch 30: 0.000500
+411/411 ━━━━━━━━━━━━━━━━━━━━ 10s 13ms/step - accuracy: 0.4088 - loss: 1.0574 - val_accuracy: 0.4311 - val_loss: 1.0787 - learning_rate: 0.0010
+Epoch 31/200
+407/411 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step - accuracy: 0.4309 - loss: 1.0495Learning rate at epoch 31: 0.000500
+411/411 ━━━━━━━━━━━━━━━━━━━━ 9s 11ms/step - accuracy: 0.4309 - loss: 1.0494 - val_accuracy: 0.4210 - val_loss: 1.0958 - learning_rate: 5.0000e-04
+Epoch 32/200
+408/411 ━━━━━━━━━━━━━━━━━━━━ 0s 12ms/step - accuracy: 0.4384 - loss: 1.0362Learning rate at epoch 32: 0.000500
+411/411 ━━━━━━━━━━━━━━━━━━━━ 6s 13ms/step - accuracy: 0.4384 - loss: 1.0362 - val_accuracy: 0.3726 - val_loss: 1.1073 - learning_rate: 5.0000e-04
+Epoch 33/200
+411/411 ━━━━━━━━━━━━━━━━━━━━ 0s 12ms/step - accuracy: 0.4297 - loss: 1.0362Learning rate at epoch 33: 0.000500
+411/411 ━━━━━━━━━━━━━━━━━━━━ 10s 13ms/step - accuracy: 0.4297 - loss: 1.0362 - val_accuracy: 0.3863 - val_loss: 1.1191 - learning_rate: 5.0000e-04
+Epoch 34/200
+411/411 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step - accuracy: 0.4579 - loss: 1.0242Learning rate at epoch 34: 0.000500
+411/411 ━━━━━━━━━━━━━━━━━━━━ 4s 11ms/step - accuracy: 0.4579 - loss: 1.0242 - val_accuracy: 0.3543 - val_loss: 1.1324 - learning_rate: 5.0000e-04
+Epoch 35/200
+409/411 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step - accuracy: 0.4473 - loss: 1.0259Learning rate at epoch 35: 0.000500
+411/411 ━━━━━━━━━━━━━━━━━━━━ 5s 11ms/step - accuracy: 0.4473 - loss: 1.0258 - val_accuracy: 0.3927 - val_loss: 1.1216 - learning_rate: 5.0000e-04
+Epoch 36/200
+408/411 ━━━━━━━━━━━━━━━━━━━━ 0s 12ms/step - accuracy: 0.4452 - loss: 1.0238Learning rate at epoch 36: 0.000500
+411/411 ━━━━━━━━━━━━━━━━━━━━ 5s 13ms/step - accuracy: 0.4452 - loss: 1.0237 - val_accuracy: 0.3699 - val_loss: 1.1427 - learning_rate: 5.0000e-04
+Epoch 37/200
+406/411 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step - accuracy: 0.4575 - loss: 1.0178Learning rate at epoch 37: 0.000500
+411/411 ━━━━━━━━━━━━━━━━━━━━ 4s 11ms/step - accuracy: 0.4575 - loss: 1.0177 - val_accuracy: 0.3470 - val_loss: 1.1169 - learning_rate: 5.0000e-04
+Epoch 38/200
+410/411 ━━━━━━━━━━━━━━━━━━━━ 0s 11ms/step - accuracy: 0.4564 - loss: 1.0118Learning rate at epoch 38: 0.000500
+411/411 ━━━━━━━━━━━━━━━━━━━━ 5s 13ms/step - accuracy: 0.4564 - loss: 1.0118 - val_accuracy: 0.3653 - val_loss: 1.1218 - learning_rate: 5.0000e-04
+Epoch 39/200
+408/411 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step - accuracy: 0.4502 - loss: 1.0119Learning rate at epoch 39: 0.000500
+411/411 ━━━━━━━━━━━━━━━━━━━━ 9s 11ms/step - accuracy: 0.4503 - loss: 1.0118 - val_accuracy: 0.3726 - val_loss: 1.1434 - learning_rate: 5.0000e-04
+Epoch 40/200
+408/411 ━━━━━━━━━━━━━━━━━━━━ 0s 12ms/step - accuracy: 0.4584 - loss: 1.0053
+Epoch 40: ReduceLROnPlateau reducing learning rate to 0.0002500000118743628.
+Learning rate at epoch 40: 0.000250
+411/411 ━━━━━━━━━━━━━━━━━━━━ 6s 13ms/step - accuracy: 0.4584 - loss: 1.0052 - val_accuracy: 0.3717 - val_loss: 1.1616 - learning_rate: 5.0000e-04
+35/35 ━━━━━━━━━━━━━━━━━━━━ 0s 9ms/step
+18/18 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step
