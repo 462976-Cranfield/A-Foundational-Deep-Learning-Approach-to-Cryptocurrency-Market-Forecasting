@@ -43,8 +43,9 @@ Additional plotting dependencies (`matplotlib`, `seaborn`) are included in the a
 ```
 ./
 ├── DATA/                    
-│   ├── TRAINING/            
-│   └── TRADING/             
+│   ├── TRAINING/
+      ├── CODE       #all the data needed to train the model  (splits)  
+│   └── TRADING/            
 ├── TRAINING/                
 │   ├── Model_DL_PART2.py    
 │   ├── SPLIT_1/ …           
