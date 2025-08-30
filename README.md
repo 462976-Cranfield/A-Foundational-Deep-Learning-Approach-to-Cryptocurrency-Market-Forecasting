@@ -37,8 +37,8 @@ TECHNICAL_WORK/
 └── PART_2/              # CryptoTFT model (PyTorch Lightning)
     ├── DATA/
     │   ├── TRADING/     # Test datasets for backtests
-    │   └── TRAINING/    # Training/validation splits
-    │       └── CODE/    # Preprocessing / data preparation scripts
+    │   └── TRAINING/    
+    │       └── CODE/    # Preprocessing / data preparation scripts and data
     ├── TRADING/         # Trading backtest simulator
     └── TRAINING/        # Training pipeline + model outputs
         ├── SPLIT_1/
