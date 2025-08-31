@@ -86,5 +86,6 @@ For any questions or clarifications, please contact:
 <img width="1035" height="487" alt="image" src="https://github.com/user-attachments/assets/d09d2b0b-a206-41eb-9b35-b426e6526263" />
 
 ## 📌 Trading Simulator
-<img width="2240" height="960" alt="Volatility_P90" src="https://github.com/user-attachments/assets/cf80a5b0-f511-406c-b232-ffdedfd660d8" />
+<img width="2240" height="913" alt="Volatility_P90" src="https://github.com/user-attachments/assets/e6489418-c5bc-44b3-9dc8-eb2a69fdc927" />
+
 
