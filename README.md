@@ -63,6 +63,9 @@ TECHNICAL_WORK/
 
   
 <img width="598" height="606" alt="image" src="https://github.com/user-attachments/assets/e2f01101-a0c0-4ec5-9fbb-58c142214d6d" />
+<img width="1101" height="513" alt="MODEL_3D" src="https://github.com/user-attachments/assets/67895e2a-60a8-4037-a835-d2d8774d6fc8" />
+
+The html is in the repository 
 
 ---
 
